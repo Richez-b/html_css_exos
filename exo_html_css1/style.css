@@ -1,0 +1,41 @@
+/* GENERAL */ 
+
+strong {
+    font-weight: normal;
+    color: yellowgreen;
+}
+em {
+    text-decoration: underline;
+    font-weight: normal;
+    color: orange;
+    font-size: 22px;
+}
+h1 {
+    text-align: center;
+    color:red;
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+
+/* TITRES */
+
+.titleBlue {
+    color: blue;
+    
+}
+.titleGreen{
+    color: green;
+    text-align: right;
+}
+
+/* BACKGROUND P */
+
+.bg_gray {
+    background-color: gray;
+}
+
+.bg_pink {
+    background-color:pink;
+}
