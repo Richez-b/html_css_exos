@@ -1,0 +1,9 @@
+ul li:nth-child(2n+2){
+    color: aqua;
+}
+ul:hover li:nth-child(2n+2){
+    color: black;
+}
+ul:hover li:nth-child(2n+1){
+    color: aqua;
+}
