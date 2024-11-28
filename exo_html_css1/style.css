@@ -1,5 +1,4 @@
 /* GENERAL */ 
-
 strong {
     font-weight: normal;
     color: yellowgreen;
@@ -18,9 +17,7 @@ h1 {
 h3{
     font-size: 30px;
 }
-
 /* TITRES */
-
 .titleBlue {
     color: blue;
     
@@ -29,10 +26,8 @@ h3{
     color: green;
     text-align: right;
 }
-
 /* BACKGROUND P */
-
-p {
+p{
     background-color: gray;
 }
 
