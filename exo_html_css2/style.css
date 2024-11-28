@@ -1,2 +1,25 @@
-/* GENERAL */
+/* TITRE */
+.title {
+    color: blue;
+}
+.title:hover{
+    color: green;
+}
 
+/* PARAGRAPHE */
+.click:active {
+    background-color: gray;
+}
+/* LINKS */
+a {
+    color: orange;
+}
+a:visited{
+    color: lightgray;
+}
+
+/* IMAGES */
+img:hover {
+    display: none;
+
+}
