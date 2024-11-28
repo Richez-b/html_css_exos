@@ -1,0 +1,10 @@
+body {
+    background-color: #9c4ce7;
+}
+div {
+    margin: 20% auto;
+    width: 300px;
+    height: 200px;
+    background-color: #3f7fb8;
+    box-shadow: -5px -5px 10px white, 5px 5px 10px black;
+}
