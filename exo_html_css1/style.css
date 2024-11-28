@@ -27,10 +27,10 @@ h3{
     text-align: right;
 }
 /* BACKGROUND P */
+.bg_pink {
+    background-color:pink !important;
+}
 p{
-    background-color: gray;
+    background: content-box radial-gradient(crimson, skyblue);
 }
 
-.bg_pink {
-    background-color:pink;
-}
