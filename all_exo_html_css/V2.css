@@ -1,7 +1,9 @@
 table{
     animation: rotation 0.5s linear infinite;   
 }
-
+table:active{
+    animation: none;
+}
 @keyframes rotation {
     from {
       transform: rotate(0deg);
