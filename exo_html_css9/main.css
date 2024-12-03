@@ -5,6 +5,7 @@
     width: 100px;
     height: 100px;
     margin: 20px;
+    display: flex;
 }
 
 .dot{
@@ -13,4 +14,44 @@
     border: 1px red solid;
     background-color: red;
     border-radius: 10px;
+}
+#d1 {
+    justify-content:center;
+    align-items:center;
+}
+#d2 {
+    justify-content: space-evenly;
+    align-items: center;
+}
+#d3 {
+    justify-content: space-evenly;
+    align-items: center;
+}
+#d4 {
+    justify-content: space-around;
+}
+#d4 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#d5 {
+    justify-content: space-around;
+}
+#d5 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#d5 > div:nth-child(2){
+    display:flex;
+    align-self: center;
+}
+#d6 {
+    justify-content: space-evenly;
+}
+#d6 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
