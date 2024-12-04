@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    > .title,footer {
+        justify-items: center;
+        background-color: rgba(0, 0, 255, 0.591);
+    }
+}
+.articles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    > div{
+        border: 1px solid black;
+        background-color: beige;
+        justify-self: center;
+        margin: 25px 0;
+        width: 400px;
+    }
+    > div * {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    * {
+        width: 100%
+    }
+    .container .title h1, footer h1 {
+        width: auto;
+    }
+    .articles {
+        grid-template-columns: 1fr;
+        div img {
+            width: auto;
+        }
+    }
+}
