@@ -5,3 +5,33 @@ img:active {
     transform: rotate(180deg);
     
 }
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    background-color: #3498db;
+    border-radius: 10px;
+}
+
+/* Animation de rotation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Classe pour activer la rotation */
+.rotate {
+    animation: rotate 1s linear infinite;
+}
